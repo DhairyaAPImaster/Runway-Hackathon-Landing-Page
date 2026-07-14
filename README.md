@@ -1,23 +1,28 @@
-RUNWAY!  :plane-flapping:
-A YSWS for anyone who is looking to gain knowledge in aerospace through designing Drones, RC Aircraft, or maybe UFO :cryin:, The rule is simple:
+# Runway
+### A YSWS programe thats hopefully gonna find a sponsor soon :wink-wink: 
+
+
+## What is Runway?
+
+Runway is a YSWS for anyone who is looking to gain knowledge in aerospace through designing Drones, RC Aircraft, or maybe even a UFO, The rule is simple:
 Build it, Ship it, Fly it!  and Get hardware grants with rewards from the shop!
 
-YOU SHIP -  Design and Build any flying object which should obey Newton's law! OR Any Hardware, Modules, PCB, CAD which can be used in your flying object.
-So design and build your own project For 28hours
+YOU SHIP -  Design and Build any flying object which probs obey Newton's laws (i mean with enough power anything can fly soo....)  OR Any Hardware, Modules, PCB, CAD which can be used in your flying object. Software too like a gravitation simulator or a very VERY needed nice amazing online wind tunnel..
 
-WE SHIP - FPV Drone Kits, Shop items, Merch, Hardware Grants.
+WE SHIP - FPV drone kits, RC plane kits, model rocket motors, hardware grants, 3d printers,domain grants, hosting grants, soldering irons, and a ton of hot glue!!!
 
-Requirements:
+***Requirements:***
 
 Should be 13-18 of age to participate 
-Should be fully open source
+Should be fully, forever open source
 Build log
 Documentation
 A final demo
 
+Hosted by - @dhairyakhannabuiss, @Aditya and @GreatJoel
 
-We will have a leaderboard that shows who is doing the best. There will be sections, like who built the fastest drone or whose drone can carry the most weight. We will tell you about the sections later. The people who Tops in each section will get prizes from us. :yayayayayay:
-Winners from each category will receive random surprise prizes from the orgs.
-Rsvp Here
 
-Hosted by - @Aditya and  @GreatJoel
+## The Landing Page
+
+***Well for starters im Dhairya and u can dm me on slack and well im in charge of making the landing page right now.... so well this is also a project on macondo that is well only the landing page so well heres some stuff about the landing page!!! hope u like it.***
+
