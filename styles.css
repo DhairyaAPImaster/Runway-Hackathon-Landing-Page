@@ -37,5 +37,234 @@ body::before {
         linear-gradient(90deg, rgba(23, 21,21 , 0.03) 1px, transparent 1px);
     background-size: 28px 28px;
     opacity: 0.5;
-    
+
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+
+.page-shell {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 16px 0 36px;
+
+}
+
+
+.poster,
+.sky-strip,
+.band,
+.rsvp-section {
+    position: relative;
+    z-index: 1;
+
+}
+
+.poster {
+    min-height: 1060px;
+    padding: 28px 18px 34px;
+    background: 
+        linear-gradient(180 deg, rgba(255, 255, 255, 0.92), rgba(250,244,230,0.96)),
+        #fff;
+    overflow: hidden;
+}
+
+.center-stack {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    width: min(700px, calc(100% - 22px));
+    z-index: 2;
+    padding: 24px 22px 28px;
+    background: rgba(255, 252, 243, 0.96);
+    margin: 0;
+    transform: translateX(-50%) rotate(-1.1deg);
+}
+
+.center-stack h1 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.78rem;
+    font-weight: 700;
+
+}
+
+
+.hero-tagline {
+    margin: 10px 0 14px;
+    font-size: clamp(1.15rem, 2vw,1.65rem);
+    font-weight: 800;
+
+}
+
+.hero-text,
+.panel p,
+.host-line {
+    margin:0;
+    font-size: 1.02rem;
+    line-height: 1.55;
+}
+
+.note-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 12px;
+    margin-top: 18px;
+
+}
+
+.note {
+    padding: 14px 14px 13px;
+    font-size: 0.98rem;
+    line-height: 1.35;
+    font-weight: 700;
+
+}
+
+.yellow-note {
+    background: #fff3a9;
+    transform: rotate(-2deg);
+}
+
+.green-note {
+    background: #e8f8e9;
+    transform: rotate (1.2deg);
+}
+
+.red-note {
+    background: #ffe1db;
+    transform: rotate(0.5deg);
+}
+
+
+.rsvp-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    min-height: 60px;
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #ffe56f 0%, #f7c400 100%);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 800;
+    transform: rotate(-1deg);
+
+
+}
+
+
+.main-rsvp {
+    margin-top: 20px;
+}
+
+.rsvp-button:hover {
+    transform: translate(-2x, -2px) rotate(-1deg);
+}
+
+.float-art {
+    position: absolute;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.art_logo {
+    top: 18px;
+    left: 18px;
+    width: 120px;
+    transform: rotate(-6deg);
+}
+
+.art_spacex_rocket {
+    top: 34px;
+    right: 32px;
+    width: 220px;
+    z-index: 5;
+    transform: rotate(7deg);
+
+}
+
+.art_artemis_rocket {
+    top: 220px;
+    left: 26px;
+    width: 196px;
+    transform: rotate(-6deg);
+
+}
+
+.art_amongus_ufo {
+    top: 92px;
+    left: 50%;
+    width: 124px;
+    transform: translate(-50%) rotate(-4deg);
+}
+
+.art_mascot {
+    top: 250px;
+    right: 220px;
+    width: 130px;
+    z-index: 3;
+    transform: rotate(5deg);
+}
+
+.art_p-51_mustang {
+    top: 118px;
+    left: 92px;
+    width: 300px;
+    z-index: 4;
+    transform: rotate(-6 deg);
+}
+
+.scatter {
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    gap: 10px;
+    width: 170px;
+
+}
+
+.scatter-left {
+    left: 52px;
+    top: 850px;
+}
+
+.scatter-right {
+    right: 52px;
+    top: 860px;
+
+}
+
+.sky-strip {
+    min-height: 340px;
+    margin: 16px 0;
+    overflow: hidden;
+}
+
+.strip_art {
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.strip_concorde {
+    top:18px ;
+    right: 90px;
+    width: 430px;
+    transform: rotate(5deg);
+}
+
+.strip_space-shuttle {
+    top: 12px;
+    width: 300px;
+    left: 44px;
+    z-index: 4;
+    transform: rotate(-6deg);
+
 }
