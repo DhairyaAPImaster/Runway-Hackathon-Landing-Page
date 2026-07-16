@@ -1,0 +1,41 @@
+:root {
+
+    --paper: #f8f4ea;
+    --ink: #171515;
+    --accent: #ea5a3c;
+    --accent2: #f1b51c;
+    --accent3: #2e9e5b;
+    --accent4: #3a7bd5;
+
+}
+
+*{ box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: var(--ink);
+    background: 
+        radial-gradient(circle at top left, rgba(242, 181, 28, 0.14), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(58, 123, 213, 0.12), transparent 32%),
+        linear-gradient(180deg, #fffdf7 0%, #f8f4ea 55%, #f0eadc 100%);
+    font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS" , "Trebuchet MS", cursive ;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: nonne;
+    background-image: 
+        linear-gradient(rgba(23 , 21, 21, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(23, 21,21 , 0.03) 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.5;
+    
+}
