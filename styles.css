@@ -268,3 +268,153 @@ img {
     transform: rotate(-6deg);
 
 }
+
+.tagcard{
+    padding: 12px 14px;
+    background:#fff;
+    font-size: 0.92rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.band {
+    display: grid;
+    grid-template-columns: 1.02fr 0.88fr;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.panel,
+.scorecard,
+.rule-item {
+    background: rgba(255, 255, 255, 0.94);
+ }
+
+ .panel {
+    padding: 18px;
+
+ }
+
+ .loose-panel {
+    min-height: 168px;
+ }
+
+ .loose-a {
+    transform: rotate(1deg);
+    background: #fff8df;
+ }
+
+ .loose-b {
+    transform: rotate(-1.2def);
+    background: #eef9f2;
+ }
+.loose-c {
+    transform: rotate(0.7deg);
+    background: #f9f1ff;
+}
+.panel h2 {
+    margin: 0;
+    font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive;
+    font-weight: 800;
+    line-height: 0.95;
+    font-size: clamp(1.5rem, 2.3vw, 2.15rem);
+    margin-bottom: 12px;
+}
+
+.rsvp-panel {
+    text-align: center;
+    padding: 28px 20px;
+    background: 
+    linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(255,250,235,0.96)100%), #dfefff;
+    max-width: 760px;
+    margin: 0 auto;
+
+}
+
+.rsvp-panel h2 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+
+.rsvp-button.secondary {
+    margin-top: 18px;
+}
+
+.host-line {
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 1040px) {
+    .poster,
+    .sky-strip {
+        min-height: 0;
+    }
+
+    .float-art,
+    .scatter {
+        position: static;
+        width: auto;
+        transform: none;
+    }
+    .float-art {
+        display: block;
+        max-width: min(60vw, 320px);
+        margin: 0 auto 12px;
+    }
+    .center-stack {
+        margin-top: 12px;
+    }
+
+    .note-row,
+    .band {
+        grid-template-columns: 1fr;
+    }
+
+    .sky-strip {
+        min-height: 0;
+    }
+
+    .scatter {
+        display: grid;
+        gap: 10px;
+        margin-top: 12px;
+    }
+
+    .strip_art{
+        position: static;
+        display: block;
+        max-width: min(70vw, 360px);
+        margin: 0 auto 14px;
+        transform: none;
+    }
+}
+
+
+@media (max-width:700px){
+    .page-shell {
+        width: min(100% - 20px, 1180px);
+        padding-top: 14px;
+    }
+
+    .poster{
+        padding: 16px 12px 20px;
+    }
+
+    .center-stack{
+        padding: 18px 14px 20px;
+    }
+    .rsvp-button{
+        width: 100%;
+    }
+
+    .note,
+    .panel,
+    .tagcard,
+    .center-stack,
+    .rsvp-panel{
+        box-shadow: none;
+    }
+}
