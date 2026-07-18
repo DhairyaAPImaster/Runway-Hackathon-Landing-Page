@@ -189,48 +189,49 @@ img {
 .art_logo {
     top: 18px;
     left: 18px;
-    width: 120px;
+    width: 180px;
     transform: rotate(-6deg);
 }
 
 .art_spacex_rocket {
-    top: 10px;
-    right: 32px;
-    width: 220px;
+    top: 400px;
+    right: 0px;
+    width: 250px;
     z-index: 5;
-    transform: rotate(7deg);
+    transform: rotate(20deg);
 
 }
 
 .art_artemis_rocket {
     top: 180px;
-    left: 26px;
-    width: 196px;
+    left: 12px;
+    width: 240px;
     transform: rotate(-6deg);
 
 }
 
 .art_amongus_ufo {
-    top: 92px;
+    top: 45px;
     left: 50%;
-    width: 124px;
+    height: auto;
+    width: 190px;
     transform: translate(-50%) rotate(-4deg);
 }
 
 .art_mascot {
-    top: 220px;
-    right: 220px;
-    width: 130px;
+    top: 200px;
+    left: 220px;
+    width: 150px;
     z-index: 3;
-    transform: rotate(5deg);
+    transform: rotate(-15deg);
 }
 
 .art_p-51_mustang {
     top: 90px;
-    left: 92px;
-    width: 300px;
+    right: 95px;
+    width: 380px;
     z-index: 4;
-    transform: rotate(-6deg);
+    transform: rotate(28deg);
 }
 
 .scatter {
