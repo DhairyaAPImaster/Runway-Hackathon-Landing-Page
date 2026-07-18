@@ -71,6 +71,7 @@ img {
         linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(250,244,230,0.96)),
         #fff;
     overflow: hidden;
+    top: 0px;
 }
 
 .centre-stack {
@@ -219,12 +220,20 @@ img {
 }
 
 .art_mascot {
-    top: 200px;
+    top: 178px;
     left: 220px;
-    width: 150px;
+    width: 180px;
     z-index: 3;
     transform: rotate(-15deg);
 }
+
+.art_our_mascot_text_art_with_arrow {
+    width: 150px;
+    left:315px;
+    top: 110px;
+}
+
+
 
 .art_p-51_mustang {
     top: 90px;
@@ -269,16 +278,16 @@ img {
 .strip_concorde {
     top:18px ;
     right: 90px;
-    width: 430px;
-    transform: rotate(5deg);
+    width: 530px;
+    transform: rotate(-5deg);
 }
 
 .strip_space-shuttle {
-    top: 12px;
-    width: 300px;
+    top: -80px;
+    width: 290px;
     left: 44px;
     z-index: 4;
-    transform: rotate(-6deg);
+    transform: rotate(28deg);
 
 }
 
