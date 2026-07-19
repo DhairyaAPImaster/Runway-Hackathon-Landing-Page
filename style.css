@@ -109,6 +109,56 @@ img {
 
 }
 
+.art_paper_plane {
+    position: absolute;
+    width: 300px;
+    left: -180px;
+    top: 250px;
+
+    z-index: 9999;
+    pointer-events: none;
+    animation: flyAcross 3s ease-in-out forwards;
+}
+
+@keyframes flyAcross{
+
+    0%{
+        left: -180px;
+        top: 280px;
+        transform: rotate(-15deg);
+    }
+
+    20%{
+        left: 35vw;
+        top: 180px;
+        transform: rotate(-8deg);
+    }
+    40%{
+        left: 35vw;
+        top: 260px;
+        transform: rotate(10deg);
+
+    }
+
+    60%{
+        left: 60vw;
+        top: 220px;
+        transform: rotate(-5deg);
+    }
+
+    80%{
+        left: 85vw;
+        top: 150px;
+        transform: rotate(8deg);
+    }
+
+    100%{
+        left: 120vw;
+        top: 100px;
+        transform: rotate(15deg);
+    }
+}
+
 .hero-text,
 .panel p,
 .host-line {
@@ -176,7 +226,6 @@ img {
 
 .green-note img{
     width: 300px;
-    height: 300px
     display:block;
     user-select:none;
     pointer-events:none;
