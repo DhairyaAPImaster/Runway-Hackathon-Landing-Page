@@ -113,9 +113,9 @@ img {
 
 .art_paper_plane {
     position: absolute;
-    width: 500px;
+    width: 600px;
     left: -180px;
-    top: 25px;
+    top: 0px;
 
     z-index: 9999;
     pointer-events: none;
