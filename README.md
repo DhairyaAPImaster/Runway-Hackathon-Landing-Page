@@ -35,6 +35,13 @@ Check it out here ---> https://runway-ysws.vercel.app/
 Also if you like the idea then well RSVP!!
 
 
+## Local Setup 
+Well just download or clone this repo and open `index.html` and boom there you go the websitw shall open in your browser no more stuff required cause well if you havent noticed this is an only html css site though the main dashboard and all of the hackathon wont be plain html css but since this is just the landing page hence it is!!!
 
 
-And tbh i dont really know what i should writie in the readme other than the stuff i already wrote so well yeah ig thats it.
+
+## For any questions DM me on slack ->
+***@dhairyakhannabuiss***
+
+
+And tbh i dont really know what more i should write in the readme other than the stuff i already wrote so well yeah ig thats it.
