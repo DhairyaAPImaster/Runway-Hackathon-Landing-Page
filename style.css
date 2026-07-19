@@ -14,6 +14,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
         radial-gradient(circle at bottom right, rgba(58, 123, 213, 0.12), transparent 32%),
         linear-gradient(180deg, #fffdf7 0%, #f8f4ea 55%, #f0eadc 100%);
     font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS" , "Trebuchet MS", cursive ;
+    overflow-x: hidden;
 
 }
 
@@ -111,51 +113,41 @@ img {
 
 .art_paper_plane {
     position: absolute;
-    width: 300px;
+    width: 500px;
     left: -180px;
-    top: 250px;
+    top: 25px;
 
     z-index: 9999;
     pointer-events: none;
-    animation: flyAcross 3s ease-in-out forwards;
+    animation: flyAcross 3s linear forwards;
+    will-change:transform;
 }
 
 @keyframes flyAcross{
 
     0%{
-        left: -180px;
-        top: 280px;
-        transform: rotate(-15deg);
+        transform: translate(-250px,280px) rotate(-15deg);
     }
 
     20%{
-        left: 35vw;
-        top: 180px;
-        transform: rotate(-8deg);
-    }
+        transform: translate(10vw,180px) rotate(-8deg);
+        }
     40%{
-        left: 35vw;
-        top: 260px;
-        transform: rotate(10deg);
-
+        transform: translate(35vw,270px) rotate(12deg);
     }
 
     60%{
-        left: 60vw;
-        top: 220px;
-        transform: rotate(-5deg);
+        transform: translate(60vw,270px) rotate(-5deg);
     }
 
     80%{
-        left: 85vw;
-        top: 150px;
-        transform: rotate(8deg);
+        transform: translate(85vw,220px) rotate(8deg);
+        opacity: 1;
     }
 
     100%{
-        left: 120vw;
-        top: 100px;
-        transform: rotate(15deg);
+        transform: translate(calc(100vw + 250px),120px) rotate(15deg);
+        opacity: 0;
     }
 }
 
